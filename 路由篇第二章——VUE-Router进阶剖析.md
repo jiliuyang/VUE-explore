@@ -21,7 +21,7 @@ export default {
 ```
 比如我们从router1跳转到router4，watch监听到的to和from对象如下图：
 
-![to和from对象](/IMG/vue2_1.PNG)
+![to和from对象](/IMG/vue2_1.png)
 
 由上我们发现其中to对象就是上章提到的$route---当前激活的路由对象。而from也可以说是一个$route,不过是跳转到当前路由之前的路由对象。
 
